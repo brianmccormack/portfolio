@@ -1,23 +1,11 @@
 .nav {
-    @extend %max-width-768;
-    background: $blue;
+    background: $gray;
+    padding: 0 20px;
 
     &__inner {
         @include clearfix;        
-        padding: 20px 0;
-        @extend %max-width-460;
-
-        @media (min-width: 640px) {
-            padding-top: 80px;
-        }           
-    }
-
-    a {
-        color: white;
-
-        &:hover {
-            color: #dbe9f9;
-        }
+        padding: 18px 0 20px;
+        @extend %max-width-460;           
     }
 
     // Pages
@@ -37,7 +25,7 @@
         }
 
         &.is-selected a {
-            color: $gray;
+            color: white;
             cursor: default;
         }
     
