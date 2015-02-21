@@ -39,10 +39,6 @@
 		margin-bottom: 4px;
 	}
 
-	&__details-item__label {
-		font-weight: 600;
-	}
-
 	&__item {
 
 		img {
@@ -57,9 +53,8 @@
 
 	&__summary {
 		padding: 20px 0;
-		max-width: 460px;
+		@extend %max-width-460;
 		line-height: 1.4em;
-		margin: 0 auto;
 	}
 
 	&__summary__item {

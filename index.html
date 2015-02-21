@@ -15,11 +15,24 @@
 <body>
 	<nav class="nav">		
 		<div class="nav__inner">
-			<a class="nav__name" href="/">Brian McCormack</a>
-			<ul class="nav__list-pages">
-				<li class="nav__list-pages__item is-selected"><a href="/">Work</a></li>
-				<li class="nav__list-pages__item"><a href="about.html">About</a></li>
-				<!-- <li><a class="nav__list-pages__item" href="">Words</a></li> -->
+			<ul class="nav__pages-list">
+				<li class="nav__pages-list__item is-selected"><a href="/">Work</a></li>
+				<li class="nav__pages-list__item"><a href="about.html">About</a></li>
+				<!-- <li><a class="nav__pages-list__item" href="">Words</a></li> -->
+			</ul>
+			<ul class="nav__social-list">
+				<li class="nav__social-list__item">
+					<a href="http://instagram.com/brianfromnewyork" rel="external" onclick="target='_blank';" title="@BrianFromNewYork"><i class="icon-instagram"></i></a>
+				</li>
+				<li class="nav__social-list__item">
+					<a href="https://twitter.com/BrianFromNY" rel="external" onclick="target='_blank';" title="@BrianFromNY"><i class="icon-twitter"></i></a>
+				</li>
+				<li class="nav__social-list__item">
+					<a href="http://www.linkedin.com/in/brianfromnewyork" rel="external" onclick="target='_blank';" title="Say Hi on LinkedIn"><i class="icon-linkedin"></i></a>
+				</li>
+				<li class="nav__social-list__item">
+					<a href="mailto:hello@brianmccormack.com" title="ye olde email"><i class="icon-envelop"></i></a>
+				</li>
 			</ul>
 		</div>	
 	</nav>
@@ -29,33 +42,30 @@
 		
 		<h1 class="header--home__headline"><span class="header--home__headline__name">Brian McCormack</span><span class="header--home__headline__title">Web Product Designer</span></h1>
 
-		<ul class="social-list">
-			<li class="social-list__item">
-				<a href="http://instagram.com/brianfromnewyork" rel="external" onclick="target='_blank';" title="@BrianFromNewYork"><i class="icon-instagram"></i></a>
-			</li>
-			<li class="social-list__item">
-				<a href="https://twitter.com/BrianFromNY" rel="external" onclick="target='_blank';" title="@BrianFromNY"><i class="icon-twitter"></i></a>
-			</li>			
-			<li class="social-list__item">
-				<a href="http://www.linkedin.com/in/brianfromnewyork" rel="external" onclick="target='_blank';" title="Say Hi on LinkedIn"><i class="icon-linkedin"></i></a>
-			</li>			
-			<li class="social-list__item">
-				<a href="mailto:hello@brianmccormack.com" title="ye olde email"><i class="icon-envelop"></i></a>
-			</li>
-		</ul>
-
 	</header>
 
 	<main class="work">
 		<a class="work__anchor" name="work"></a>
 		<div class="work__inner">
-			<h2 class="work__headline">Work</h2>
+			<div class="work__headline-anchor-container">
+				<h2 class="work__headline">Work</h2>
+				<ul class="work__anchor-list">
+					<li class="work__anchor-item"><a href="#project-confirmation">Priceline.com Purchase Confirmation Redesign</a></li>
+					<li class="work__anchor-item"><a href="#project-prototype">Priceline.com Hotel Prototype</a></li>
+					<li class="work__anchor-item"><a href="#project-seti">Priceline.com A/B Testing Interface</a></li>
+					<li class="work__anchor-item"><a href="#project-mweb">Priceline.com Mobile Web V1</a></li>
+					<li class="work__anchor-item"><a href="#project-cla">Children's Learning Adventure Website &amp; Icons</a></li>
+					<li class="work__anchor-item"><a href="#project-brochure">eTelecare Brochure</a></li>
+					<li class="work__anchor-item"><a href="#project-juliebeth">JulieBeth Look Book &amp; Logo</a></li>
+					<li class="work__anchor-item"><a href="#project-billboard">eTelecare Billboards</a></li>
+					<li class="work__anchor-item"><a href="#project-logos">Various Logos</a></li>
+				</ul>
+			</div>
+
 			<ul class="work__list">
 				
 				<!-- PCLN - Confirmation Page -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Purchase Confirmation</h3>	
-					<em class="project__subheadline">UI &amp; UX Design / HTML / SCSS / Styleguide</em> -->
+				<li class="project" id="project-confirmation">
 					<div class="project__list project__confirmation">
 						<div class="project__item">
 							<img class="project__img-border" src="images/projects/pcln-confirmation/hotel-sopq.jpg" alt="Hotel Express Deal Confirmation page">
@@ -87,10 +97,7 @@
 				</li>
 
 				<!-- PCLN - P2 / Hotel Prototype-->
-				<li class="project">
-					<!-- <h3 class="project__headline">Hotel Prototype</h3>	
-					<em class="project__subheadline">UI &amp; UX Design / HTML / SCSS / jQuery</em> -->
-
+				<li class="project" id="project-prototype">
 					<div class="project__list project__p2">
 						<div class="project__item">
 							<img src="images/projects/pcln-p2/search.jpg" alt="Home / search page">
@@ -130,10 +137,7 @@
 				</li>
 
 				<!-- PCLN - SETI -->
-				<li class="project">
-					<!-- <h3 class="project__headline">A/B Testing Interface</h3>
-					<em class="project__subheadline">UI, UX &amp; Logo Design</em> -->
-					
+				<li class="project" id="project-seti">
 					<div class="project__list project__seti">
 						<div class="project__item">
 							<img class="project__img-border" src="images/projects/pcln-seti/seti-1.jpg" alt="">
@@ -160,10 +164,7 @@
 				</li>
 
 				<!-- PCLN - Mweb -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Mobile Web V1</h3>
-					<em class="project__subheadline">UI &amp; UX Design / HTML / CSS</em> -->
-					
+				<li class="project" id="project-mweb">
 					<div class="project__list project__mweb">
 						<div class="project__item">
 							<img src="images/projects/pcln-mweb/mweb1.jpg" alt="Priceline.com Mobile Web Version 1">
@@ -205,9 +206,7 @@
 				</li>				
 
 				<!-- CLA -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Website &amp; Icons</h3>
-					<em class="project__subheadline">Art Direction / UI &amp; Icon Design</em> -->
+				<li class="project" id="project-cla">
 					<div class="project__list project__cla">
 						<div class="project__item">
 							<img src="images/projects/cla/cla1.jpg" alt="Children's Learning Adventure Homepage">
@@ -245,10 +244,7 @@
 				</li>
 
 				<!-- eTelecare Brochure -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Brochure</h3>
-					<em class="project__subheadline">Art Direction &amp; Graphic Design</em> -->
-					
+				<li class="project" id="project-brochure">
 					<div class="project__list project__etelecare-brochure">
 						<div class="project__item">
 							<img src="images/projects/etelecare-brochure/brochure1.jpg" alt="eTelecare Brochure">
@@ -269,10 +265,7 @@
 				</li>
 
 				<!-- JulieBeth Lookbook -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Look Book &amp; Logo</h3>
-					<em class="project__subheadline">Art Direction / Logo &amp; Graphic Design</em> -->
-					
+				<li class="project" id="project-juliebeth">
 					<div class="project__list project__juliebeth">
 						<div class="project__item">
 							<img src="images/projects/juliebeth/jb1.jpg" alt="JulieBeth Look Book">
@@ -300,10 +293,7 @@
 				</li>
 
 				<!-- eTelecare Billboards -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Billboards</h3>
-					<em class="project__subheadline">Graphic Design</em> -->
-					
+				<li class="project" id="project-billboard">
 					<div class="project__list project__etelecare-billboards">
 						<div class="project__item">
 							<img src="images/projects/etelecare-billboards/etelecare-billboard-1.jpg" alt="eTelecare Recruitment Billboard">
@@ -324,10 +314,7 @@
 				</li>
 
 				<!-- Logos -->
-				<li class="project">
-					<!-- <h3 class="project__headline">Logos</h3>
-					<em class="project__subheadline">Art Direction / Graphic Design</em> -->
-					
+				<li class="project" id="project-logos">
 					<div class="project__list project__logos">
 						<div class="project__item">
 							<img class="project__img-border" src="images/projects/logos/logo-greatdiscovery.gif" alt="Logo for The Great Discovery">
