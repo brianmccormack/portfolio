@@ -1,0 +1,55 @@
+.nav {
+    @include adelle-serif;
+    font-weight: 300;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+
+    &__inner {
+        @include clearfix;
+        @extend %max-width;
+    }
+
+    &__name {
+        display: none;
+
+        @media (min-width: 640px) {
+        	float: left;
+            display: block;
+            padding: 15px 40px 15px 0;        
+            color: $gray;
+        }    
+
+        &:hover,
+        &:focus {
+            color: $gray;
+        }
+    }
+
+    // Pages
+    &__list-pages {
+        text-align: center;
+
+        @media (min-width: 640px) {
+            float: right;
+            text-align: left;
+        }    
+    }
+
+    &__list-pages__item {
+        display: inline-block;
+        padding: 0 15px; 
+
+        &.is-selected a {
+            color: $gray;
+            cursor: default;
+            border-color: #ddd;            
+        }
+    
+        a {
+            padding: 15px 0 12px;
+            border-bottom: 4px solid transparent;
+            display: block;
+        }         
+    }
+}

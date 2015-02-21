@@ -1,0 +1,11 @@
+@mixin adelle-serif {
+	font-family: "adelle",serif;
+	font-style: normal;
+	font-weight: 100;
+}
+
+@mixin source-sans {
+	font-family: "source-sans-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;	
+}

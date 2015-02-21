@@ -1,0 +1,14 @@
+.show-for-sm {
+
+	@media (min-width: 640px) {
+        display: none;
+    }
+}
+
+.show-for-md {
+	display: none;
+
+	@media (min-width: 640px) {
+        display: block;
+    }	
+}
