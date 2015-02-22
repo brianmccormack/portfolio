@@ -18,12 +18,13 @@
             &__name {
                 display: block;
                 font-size: 28px;
-                padding-bottom: 18px;
+                padding-bottom: 16px;
                 font-weight: 700;
                 letter-spacing: -0.025em;
 
                 @media only screen and (min-width: 640px) {
                     font-size: 34px;
+                    padding-bottom: 18px;
                 }
             }    
 
