@@ -15,7 +15,7 @@
 	color: #5eacee;
 	opacity: 1;
 
-	@media (min-width: 640px) {
+	@include bp-640 {
 		line-height: 1.2;
 		font-size: 25px;
 	}
@@ -31,7 +31,7 @@
 		}	
 	}
 
-	@media (min-width: 640px) {
+	@include bp-640 {
 		height: 25px;
 		width: 25px;
 	}	
@@ -39,14 +39,14 @@
 
 .slick-prev {
     
-    @media (min-width: 640px) {
+    @include bp-640 {
     	left: -29px;
     }
 }
 
 .slick-next {
 
-    @media (min-width: 640px) {
+    @include bp-640 {
     	right: -30px;
     }	
 }

@@ -10,7 +10,7 @@
     &__name {
         display: none;
 
-        @media (min-width: 640px) {
+        @include bp-640 {
             float: left;
             display: block;
             padding: 18px 40px 15px 0;        
@@ -30,7 +30,7 @@
     &__pages-list {
         text-align: center;
 
-        @media (min-width: 640px) {
+        @include bp-640 {
             float: right;
             text-align: left;
         }

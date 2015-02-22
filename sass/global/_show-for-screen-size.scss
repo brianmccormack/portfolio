@@ -1,6 +1,6 @@
 .show-for-sm {
 
-	@media (min-width: 640px) {
+	@include bp-640 {
         display: none;
     }
 }
@@ -8,7 +8,7 @@
 .show-for-md {
 	display: none;
 
-	@media (min-width: 640px) {
+	@include bp-640 {
         display: block;
     }	
 }
