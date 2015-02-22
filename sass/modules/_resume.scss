@@ -1,0 +1,102 @@
+article {
+	padding-bottom: 100px;
+	max-width: 1000px;
+	margin: 0 auto;
+	line-height: 1.4em;
+	background: white;
+}
+
+.resume__clear {
+	clear: both;
+}
+
+.resume__header {
+	margin: 140px 0 80px;
+}
+
+.resume__name__headline,
+.resume__name__subheadline {
+	letter-spacing: -0.02em;
+}
+
+.resume__name__headline {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.4em;	
+}
+
+.resume__name__subheadline {
+	font-size: 32px;
+	display: block;
+}
+
+.resume__main-container,
+.resume__sidebar-container {
+	float: left;
+}
+
+.resume__main-container {
+	width: 600px;
+	padding-right: 40px;	
+}
+
+.resume__sidebar-container {
+	width: 300px;
+}
+
+section {
+	margin-top: 80px;
+}
+
+.resume__section-heading {
+	text-transform: uppercase;
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.resume__sidebar-item {
+	margin-bottom: 10px;
+}
+
+.resume__dates {
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.resume__section-copy {
+	margin-top: 5px;
+}
+
+.resume__section-place {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.resume__section-place-list li {
+	padding-top: 30px;
+}
+
+.resume__section-place-list li:first-child {
+	padding-top: 10px;
+}
+
+.job-title {
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

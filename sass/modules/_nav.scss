@@ -1,5 +1,6 @@
 .nav {
     border-bottom: 1px solid $gray-light;
+    background: #f8f8f8;
 
     &__inner {
         @include clearfix;
