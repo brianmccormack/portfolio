@@ -32,11 +32,18 @@
 @import "modules/social-list";
 @import "modules/nav";
 @import "modules/header";
-@import "modules/work";
-@import "modules/project";
-@import "modules/about";
 @import "modules/footer";
-@import "modules/resume";
+
+// Pages
+	// work
+	@import "pages/work/work";
+	@import "pages/work/project";
+
+	// about
+	@import "pages/about/about";
+
+	// resume
+	@import "pages/resume/resume";
 
 // Slick-override
 @import "vendor/slick-override";
