@@ -1,16 +1,16 @@
 .footer {
 	padding: 50px 20px 60px;
 	margin: 50px auto 0;
-	border-top: 1px solid $gray;
+	border-top: 1px solid #ddd;
 	text-align: center;
 
 	&__headline {
 		padding-bottom: 30px;
 	    font-size: 22px;
-	    font-weight: $normal;
+	    font-weight: $light;
 
 	    @media (min-width: 640px) {
-	    	font-size: 32px;
+	    	font-size: 28px;
 	    }
 	}	
 }

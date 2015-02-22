@@ -3,27 +3,40 @@
     // * HOME *
 
     &--home {
-	   @extend %max-width-768;
-       position: relative;
+	   text-align: center;
 
         &__headline {
-            padding: 120px 0 80px;
-            line-height: 2.4em;
-            @extend %max-width-460;
+            @extend %max-width-768;
+            padding: 100px 20px 40px;            
+            margin: 0 auto;
+            line-height: 1.25em;
         
-            &__name {
-                display: block;
-                font-size: 32px;
-                font-weight: $bold;
-                letter-spacing: -0.025em;
+            @media only screen and (min-width: 640px) {
+                padding: 160px 20px 60px;
             }
 
+            &__name {
+                display: block;
+                font-size: 35px;
+                padding-bottom: 18px;
+                font-weight: 700;
+                letter-spacing: -0.025em;
+            }    
+
             &__title {
-                font-size: 22px;
+                font-size: 26px;
                 letter-spacing: -0.02em;
-                font-weight: $normal;               
+                font-weight: $light;      
             }
         }
+
+       .social-list {            
+            padding-bottom: 40px;
+
+            @media only screen and (min-width: 640px) {
+                padding-bottom: 80px;
+            }
+        }         
     }
 
 
@@ -69,6 +82,7 @@
         cursor: pointer;
         display: block;
         position: absolute;
+        display: none;
     }
 
     &__shape-input {
