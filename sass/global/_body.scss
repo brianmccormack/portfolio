@@ -1,14 +1,15 @@
 body {    
     color: $gray;
-    background: #f8f8f8;
+	background: #f8f8f8;
 	@include open-sans;
 	font-size: 14px;	
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;    
 
     @media (min-width: 640px) {
         font-size: 16px;
+		background: #f8f8f8 url(../images/header/background-shapes.png) no-repeat center 40px;        
     }    
 }
 
