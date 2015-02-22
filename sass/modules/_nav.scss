@@ -15,6 +15,11 @@
             padding: 15px 40px 15px 0;        
             color: $gray;
         }
+
+        &:hover,
+        &:focus {
+            color: $gray;
+        }            
     }            
 
     // Pages
