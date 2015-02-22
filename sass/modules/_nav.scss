@@ -8,6 +8,7 @@
 
     &__name {
         display: none;
+        font-weight: $light;
 
         @media (min-width: 640px) {
             float: left;
