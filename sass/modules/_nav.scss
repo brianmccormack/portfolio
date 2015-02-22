@@ -5,7 +5,7 @@
     &__inner {
         @include clearfix;        
         padding: 18px 0 20px;
-        @extend %max-width-460;           
+        @extend %max-width-768;       
     }
 
     // Pages
@@ -36,7 +36,7 @@
     }
 
     &__social-list {
-        margin-top: 6px;
+        margin-top: 7px;
         float: right;
 
         i {
