@@ -1,5 +1,5 @@
 .nav {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid $gray-light;
 
     &__inner {
         @include clearfix;
@@ -34,7 +34,7 @@
         &.is-selected a {
             color: $gray;
             cursor: default;
-            border-color: #ddd;            
+            border-color: $gray-light;            
         }
     
         a {
