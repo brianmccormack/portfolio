@@ -8,13 +8,15 @@
 
     &__name {
         display: none;
-        font-weight: $light;
 
         @media (min-width: 640px) {
             float: left;
             display: block;
-            padding: 15px 40px 15px 0;        
+            padding: 18px 40px 15px 0;        
             color: $gray;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;            
         }
 
         &:hover,
