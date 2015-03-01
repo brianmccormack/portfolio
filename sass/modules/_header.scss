@@ -1,4 +1,4 @@
-.header {
+.header {    
 
     // * HOME *
 
@@ -12,7 +12,7 @@
             line-height: 1.25em;
         
             @include bp-640 {
-                padding: 160px 20px 60px;
+                padding: 120px 20px 60px;
             }
 
             &__name {
@@ -45,7 +45,7 @@
             padding-bottom: 40px;
 
             @include bp-640 {
-                padding-bottom: 80px;
+                padding-bottom: 90px;
             }
         }         
     }
