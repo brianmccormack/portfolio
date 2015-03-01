@@ -7,9 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
 
-    @include bp-640 {
-        background: #fff url(../images/header/background-shapes.gif) no-repeat center 40px;
-    }
+    // @include bp-640 {
+    //     background: #fff url(../images/header/background-shapes.gif) no-repeat center 40px;
+    // }
 }
 
 * {
