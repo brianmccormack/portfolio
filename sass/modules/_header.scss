@@ -9,7 +9,7 @@
         &__headline {
             @extend %max-width-768;
             padding: 100px 20px 40px;            
-            line-height: 1.25em;
+            line-height: 1.25em;            
         
             @include bp-640 {
                 padding: 160px 20px 60px;
@@ -19,7 +19,8 @@
                 display: block;
                 font-size: 28px;
                 padding-bottom: 16px;
-                font-weight: $bold;
+                @include franklin-gothic;
+                font-weight: $heavy;
                 letter-spacing: -0.025em;
 
                 @include bp-640 {
