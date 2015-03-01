@@ -1,6 +1,6 @@
 body {    
     color: $gray;
-	background: #f8f8f8;
+	background: #fff;
 	@include franklin-gothic;
 	font-size: 16px;	
     -webkit-font-smoothing: antialiased;
@@ -8,7 +8,7 @@ body {
     -webkit-text-size-adjust: 100%;
 
     @include bp-640 {
-        background: #f8f8f8 url(../images/header/background-shapes.png) no-repeat center 40px;
+        background: #fff url(../images/header/background-shapes.gif) no-repeat center 40px;
     }
 }
 

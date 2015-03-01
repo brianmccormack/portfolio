@@ -1,7 +1,7 @@
 .nav {
     border-bottom: 1px solid $gray-light;
     @include franklin-gothic;
-    background: #f8f8f8; 
+    background: #fff; 
 
     &__inner {
         @include clearfix;
