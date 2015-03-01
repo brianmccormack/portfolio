@@ -21,10 +21,9 @@
                 padding-bottom: 16px;
                 @include franklin-gothic;
                 font-weight: $heavy;
-                letter-spacing: -0.025em;
 
                 @include bp-640 {
-                    font-size: 36px;
+                    font-size: 42px;
                     padding-bottom: 18px;
                 }
             }    
