@@ -20,7 +20,7 @@
                 font-size: 32px;
                 padding-bottom: 10px;                
                 @include source;
-                // font-weight: $bold;
+                font-weight: $bold;
 
                 @include bp-640 {
                     font-size: 42px;
@@ -73,7 +73,7 @@
         font-size: 28px;        
         top: 33%;
         @include source;
-        // font-weight: $bold;
+        font-weight: $bold;
 
         @include bp-640 {
             font-size: 44px;
