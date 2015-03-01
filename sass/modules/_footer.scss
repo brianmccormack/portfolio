@@ -7,7 +7,7 @@
 	&__headline {
 		padding-bottom: 30px;
 	    font-size: 22px;
-	    font-weight: $light;
+	    @include source;
 
 	    @include bp-640 {
 	    	font-size: 28px;

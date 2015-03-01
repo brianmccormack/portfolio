@@ -1,6 +1,7 @@
 .nav {
     border-bottom: 1px solid $gray-light;
-    background: #f8f8f8;
+    @include franklin-gothic;
+    background: #f8f8f8; 
 
     &__inner {
         @include clearfix;
@@ -13,11 +14,11 @@
         @include bp-640 {
             float: left;
             display: block;
-            padding: 18px 40px 15px 0;        
+            padding: 20px 40px 15px 0;        
             color: $gray;
             text-transform: uppercase;
             letter-spacing: 2px;
-            font-size: 12px;            
+            font-size: 14px;            
         }
 
         &:hover,
@@ -47,11 +48,11 @@
         }
     
         a {
-            padding: 18px 0 14px;
+            padding: 20px 0 13px;
             border-bottom: 4px solid transparent;
             display: block;
             text-transform: uppercase;
-            font-size: 12px;
+            font-size: 14px;
             letter-spacing: 2px;
         }        
     }  

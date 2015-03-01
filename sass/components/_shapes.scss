@@ -1,0 +1,176 @@
+// .header {
+
+//     // * SHAPE *
+
+//     &__shape-label {
+//         -webkit-transition: all 0.2s ease-in-out;
+//         -moz-transition: all 0.2s ease-in-out;
+//         -o-transition: all 0.2s ease-in-out;
+//         transition: all 0.2s ease-in-out;
+//         background: white;
+//         border: 1px solid lighten($gray, 70%);
+//         cursor: pointer;
+//         display: block;
+//         position: absolute;
+//         display: none;
+
+//         @include bp-640 {
+//             display: none;
+//         }    
+//     }
+
+//     &__shape-input {
+//         display: none;
+//     }
+
+//     // * SHAPES RIGHT *
+//     &__shape-rectangle-r1 {
+        
+//         .header__shape-label {
+//             top: 110%;
+//             right: 20%;
+//             @include rotate(14);
+//             width: 12px;
+//             height: 40px;
+//         }
+
+//         & [id^="shape-"]:checked + .header__shape-label {
+//             background: red;
+//             border-color: red;
+//         }
+//     }
+
+//     &__shape-square-r1 {
+
+//         .header__shape-label {
+//             width: 35px;
+//             height: 35px;            
+//             top: 80%;
+//             right: 13%;
+//             @include rotate(25);
+//         }
+
+//         & [id^="shape-"]:checked + .header__shape-label {
+//             background: blue;
+//             border-color: blue;
+//         }
+//     } 
+
+//     &__shape-circle-r1 {
+
+//         .header__shape-label {
+//             width: 34px;
+//             height: 34px;         
+//             top: 12%;
+//             right: 6%;
+//             @include border-radius(50%);
+//         }
+
+//         & [id^="shape-"]:checked + .header__shape-label {
+//             background: green;
+//             border-color: green;
+//         }
+//     }
+
+//     &__shape-circle-r2 {
+
+//         .header__shape-label {
+//             width: 20px;
+//             height: 20px;         
+//             top: 5%;
+//             right: 2%;
+//             @include border-radius(50%);
+//         }
+
+//         & [id^="shape-"]:checked + .header__shape-label {
+//             background: purple;
+//             border-color: purple;
+//         }
+//     }    
+
+//     &__shape-triangle-r1 {        
+//         display: none;
+
+//         .header__shape-label {
+//             border-width: 0 13px 20px 13px;
+//             border-color: transparent transparent lighten($gray, 70%) transparent;            
+//             @include rotate(20);
+//             top: 16%;
+//             right: 9%;
+//         }
+//         .header__shape-label,
+//         .header__shape-label:after {
+//             content: "";
+//             width: 0;
+//             height: 0;
+//             border-style: solid;            
+//         }
+//         .header__shape-label:after {
+//             position: relative;
+//             border-width: 0 11px 18px 11px;
+//             border-color: transparent transparent white transparent;
+//             position: absolute;
+//             top: 1%;
+//             left: 11%;
+//         }
+
+//         & [id^="shape-"]:checked {
+            
+//             & + .header__shape-label,
+//             & + .header__shape-label:after {
+//                 border-color: transparent transparent orange transparent;
+//             }
+//         }   
+//     }
+
+//     &__shape-triangle-r2 {        
+//         display: none;
+
+//         .header__shape-label {
+//             border-width: 0 16px 25px 16px;
+//             border-color: transparent transparent lighten($gray, 70%) transparent;            
+//             @include rotate(-30);
+//             top: 8%;
+//             right: 8%;
+//         }
+//         .header__shape-label,
+//         .header__shape-label:after {
+//             content: "";
+//             width: 0;
+//             height: 0;
+//             border-style: solid;            
+//         }
+//         .header__shape-label:after {
+//             position: relative;
+//             border-width: 0 14px 23px 14px;
+//             border-color: transparent transparent white transparent;
+//             position: absolute;
+//             top: 1%;
+//             left: 14%;
+//         }
+
+//         & [id^="shape-"]:checked {
+            
+//             & + .header__shape-label,
+//             & + .header__shape-label:after {
+//                 border-color: transparent transparent pink transparent;
+//             }
+//         }   
+//     }
+
+//     // * SHAPES LEFT *
+//     &__shape-rectangle-l1 {
+//         .header__shape-label {
+//             top: 23%;
+//             left: 5%;
+//             @include rotate(-30);
+//             width: 18px;
+//             height: 30px;           
+//         }
+
+//         & [id^="shape-"]:checked + .header__shape-label {
+//             background: purple;
+//             border-color: purple;
+//         }
+//     }
+// }    

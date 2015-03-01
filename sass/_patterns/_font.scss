@@ -1,8 +1,13 @@
-@mixin open-sans {
-	font-family: 'Open Sans', sans-serif;
-}
+// @mixin open-sans {
+// 	font-family: 'Open Sans', sans-serif;
+// }
 
 @mixin franklin-gothic {
-	font-family: "franklin-gothic-urw",sans-serif;
+	font-family: "franklin-gothic-urw","FranklinGothic URW", sans-serif;
+	font-style: normal;
+}
+
+@mixin source {
+	font-family: "source-serif-pro", "Source Serif Pro", sans-serif;
 	font-style: normal;
 }

@@ -1,22 +1,17 @@
 body {    
     color: $gray;
 	background: #f8f8f8;
-	@include open-sans;
-	font-size: 14px;	
+	@include franklin-gothic;
+	font-size: 16px;	
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;    
+    -webkit-text-size-adjust: 100%;
 
     @include bp-640 {
-        font-size: 16px;
-		background: #f8f8f8 url(../images/header/background-shapes.png) no-repeat center 40px;        
-    }  
+        background: #f8f8f8 url(../images/header/background-shapes.png) no-repeat center 40px;
+    }
 }
 
 * {
 	box-sizing: border-box;
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    -webkit-animation-duration: 0.1s;
-    animation-duration: 0.1s;
 }

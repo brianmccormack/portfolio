@@ -54,7 +54,7 @@
 	&__summary {
 		padding: 20px 0;
 		@extend %max-width-460;
-		line-height: 1.4em;
+		line-height: 1.3em;
 	}
 
 	&__summary__item {
@@ -63,5 +63,9 @@
 
 	&__summary__copy {
 		padding-bottom: 20px;
+	}
+
+	&__details-item__label {
+		@include source;
 	}
 }
