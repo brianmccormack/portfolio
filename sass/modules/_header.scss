@@ -37,7 +37,7 @@
         text-transform: uppercase;
         @include franklin-gothic;
         display: block;
-        padding-top: 6px;
+        padding-top: 5px;
         font-weight: $medium;
 
         @include bp-640 {
