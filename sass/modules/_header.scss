@@ -21,12 +21,12 @@
         color: white;
         text-align: center;
         font-size: 38px;        
-        top: 25%;
+        top: 22%;
         @include source;
 
         @include bp-640 {
             font-size: 45px;
-            top: 25%;
+            top: 28%;
         }
     }
 
