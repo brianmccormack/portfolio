@@ -21,12 +21,12 @@
 		padding: 30px 0 15px;
 		text-align: center;
 		position: relative;
-		font-size: 18px;
+		font-size: 20px;
 		letter-spacing: 0.05em;
 		@include source;
 
 		@include bp-640 {
-			font-size: 20px;
+			font-size: 24px;
 		}
 	
 		&:after {
