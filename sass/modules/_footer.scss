@@ -1,17 +1,16 @@
 .footer {
 	padding: 50px 20px 60px;
 	margin: 50px auto 0;
-	border-top: 1px solid $gray-light;
 	text-align: center;
 	background: #fff;
 
 	&__headline {
 		padding-bottom: 30px;
-	    font-size: 22px;
+	    font-size: 30px;
 	    @include source;
 
 	    @include bp-640 {
-	    	font-size: 28px;
+	    	font-size: 34px;
 	    }
 	}	
 }

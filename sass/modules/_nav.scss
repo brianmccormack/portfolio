@@ -1,11 +1,10 @@
 .nav {
-    border-bottom: 1px solid $gray-light;
     @include franklin-gothic;
     background: #fff; 
 
     &__inner {
         @include clearfix;
-        @extend %max-width-768;       
+        @extend %max-width-768;   
     }
 
     &__name {
@@ -25,35 +24,27 @@
         &:focus {
             color: $gray;
         }            
-    }            
+    }
 
-    // Pages
-    &__pages-list {
+    .social-list {
+        padding: 14px 0;
         text-align: center;
 
         @include bp-640 {
             float: right;
-            text-align: left;
         }
+
+        &__item {
+            margin-right: 18px;
+
+            &:last-child {
+                margin: 0;
+            }    
+        }
+
+        i {
+            font-size: 22px;
+        }   
     }
 
-    &__pages-list__item {
-        display: inline-block;
-        padding: 0 15px;     
-    
-        &.is-selected a {
-            color: $gray;
-            cursor: default;
-            border-color: $gray-light;            
-        }
-    
-        a {
-            padding: 20px 0 16px;
-            border-bottom: 4px solid transparent;
-            display: block;
-            text-transform: uppercase;
-            font-size: 14px;
-            letter-spacing: 2px;
-        }        
-    }  
 }

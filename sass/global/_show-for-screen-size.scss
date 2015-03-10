@@ -1,4 +1,5 @@
 .show-for-sm {
+	display: block;
 
 	@include bp-640 {
         display: none;
