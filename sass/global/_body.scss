@@ -1,15 +1,15 @@
 body {    
     color: $gray;
-	background: #fff;
+	background: #f8f8f8;
 	@include franklin-gothic;
 	font-size: 16px;	
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
 
-    @include bp-640 {
-        background: #fff url(../images/header/background-shapes.gif) no-repeat center 40px;
-    }
+    // @include bp-640 {
+    //     background: #fff url(../images/header/background-shapes.gif) no-repeat center 40px;
+    // }
 }
 
 * {

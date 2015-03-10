@@ -12,7 +12,7 @@
             line-height: 1.25em;
         
             @include bp-640 {
-                padding: 140px 20px 60px;
+                padding: 140px 20px 50px;
             }
 
             &__name {
@@ -20,23 +20,23 @@
                 font-size: 32px;
                 padding-bottom: 10px;                
                 @include source;
-                font-weight: $bold;
+                letter-spacing: 0.01em;
 
                 @include bp-640 {
-                    font-size: 42px;
-                    padding-bottom: 20px;
+                    font-size: 34px;
+                    padding-bottom: 15px;
                 }
             }    
 
             &__title {
                 font-size: 16px;
-                letter-spacing: .1em;
-                word-spacing: .15em;
+                letter-spacing: .05em;
+                word-spacing: .1em;
                 text-transform: uppercase;
                 @include franklin-gothic;
 
                 @include bp-640 {
-                    font-size: 20px;
+                    font-size: 18px;
                 }
             }
         }
@@ -73,7 +73,7 @@
         font-size: 28px;        
         top: 33%;
         @include source;
-        font-weight: $bold;
+        // font-weight: $bold;
 
         @include bp-640 {
             font-size: 44px;
