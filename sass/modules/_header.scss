@@ -20,7 +20,6 @@
                 font-size: 32px;
                 padding-bottom: 10px;                
                 @include source;
-                letter-spacing: 0.01em;
 
                 @include bp-640 {
                     font-size: 34px;
