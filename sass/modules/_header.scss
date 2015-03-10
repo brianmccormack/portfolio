@@ -31,7 +31,7 @@
     }
 
     &--about__title {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 0.02em;
         word-spacing: 0.15em;
         text-transform: uppercase;
@@ -39,5 +39,9 @@
         display: block;
         padding-top: 6px;
         font-weight: $medium;
+
+        @include bp-640 {
+            font-size: 18px;
+        }
     }    
 }
