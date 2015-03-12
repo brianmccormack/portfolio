@@ -1,12 +1,12 @@
 .social-list {
 
 	i {
-        font-size: 26px;         
+        font-size: em(26px, 16px);
     }
 
     &__item {
 	    display: inline-block;        
-	    margin-right: 24px;
+	    margin-right: em(24px, 16px);
 
 	    &:last-child {
 	        margin: 0;

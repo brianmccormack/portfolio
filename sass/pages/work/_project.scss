@@ -1,8 +1,8 @@
 .project {
-	padding: 30px 0 0;
+	padding: em(30px, 16px) 0 0;
 
 	@include bp-640 {
-		padding: 50px 0 30px;
+		padding: em(50px, 16px) 0 em(30px, 16px);
 	}	
 
 	+ .project {
@@ -15,11 +15,11 @@
 	}
 
 	&__headline {
-		padding: 0 20px 10px;
-		font-size: 20px;
+		padding: 0 em(20px, 16px) em(10px, 16px);
+		font-size: em(20px, 16px);
 
 		@include bp-640 {
-	        font-size: 26px;
+	        font-size: em(26px, 16px);
 	    }		
 	}
 
@@ -27,16 +27,16 @@
 		display: block;
 		color: $gray;
 		line-height: 1.3em;
-		padding-bottom: 30px;
+		padding-bottom: em(30px, 16px);
 		font-style: italic;
 	}
 
 	&__details-list {
-		margin-bottom: 30px;
+		margin-bottom: em(30px, 16px);
 	}
 
 	&__details-item {
-		margin-bottom: 4px;
+		margin-bottom: em(4px, 16px);
 	}
 
 	&__item {
@@ -52,17 +52,17 @@
 	}
 
 	&__summary {
-		padding: 20px 0;
+		padding: em(20px, 16px) 0;
 		@extend %max-width-460;
 		line-height: 1.3em;
 	}
 
 	&__summary__item {
-		padding-top: 10px;
+		padding-top: em(10px, 16px);
 	}
 
 	&__summary__copy {
-		padding-bottom: 20px;
+		padding-bottom: em(20px, 16px);
 	}
 
 	&__details-item__label {

@@ -4,14 +4,14 @@
 
     &--about {       
         margin: 0 auto;
-        max-width: 768px;
+        max-width: em(768px, 16px);
         position: relative;
     }
 
     &--about__image {
         max-width: 100%;        
-        margin: 40px auto;
-        padding: 0 20px;
+        margin: em(40px, 16px) auto;
+        padding: 0 em(20px, 16px);
         text-align: center;
     }
 
@@ -20,28 +20,28 @@
         width: 100%;
         color: white;
         text-align: center;
-        font-size: 36px;        
+        font-size: em(36px, 16px);        
         top: 20%;
         @include source;
 
         @include bp-640 {
-            font-size: 45px;
-            top: 28%;
+            font-size: em(45px, 16px);
+            top: 25%;
         }
     }
 
     &--about__title {
-        font-size: 16px;
+        font-size: em(16px, 36px);
         letter-spacing: 0.02em;
         word-spacing: 0.15em;
         text-transform: uppercase;
         @include franklin-gothic;
         display: block;
-        padding-top: 5px;
+        padding-top: em(5px, 16px);
         font-weight: $medium;
 
         @include bp-640 {
-            font-size: 18px;
+            font-size: em(18px, 45px);
         }
     }    
 }
