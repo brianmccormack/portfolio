@@ -22,15 +22,11 @@
 
     &--about__title {
         font-size: em(16px, 36px);
-        word-spacing: 0.15em;
-        text-transform: uppercase;
-        @include franklin-gothic;
         display: block;
-        padding-top: em(5px, 16px);
-        font-weight: $medium;
+        padding-top: em(4px, 16px);
 
         @include bp-640 {
-            font-size: em(30px, 90px);
+            font-size: em(34px, 90px);
         }
     }    
 }
