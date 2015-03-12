@@ -8,31 +8,20 @@
         position: relative;
     }
 
-    &--about__image {
-        max-width: 100%;        
-        margin: em(40px, 16px) auto;
-        padding: 0 em(20px, 16px);
+    &--about__name {
         text-align: center;
-    }
-
-    &--about__name {        
-        position: absolute;
-        width: 100%;
-        color: white;
-        text-align: center;
-        font-size: em(36px, 16px);        
-        top: 20%;
+        font-size: em(40px, 16px); 
+        padding: em(80px, 40px) 0;
         @include source;
 
         @include bp-640 {
-            font-size: em(45px, 16px);
-            top: 25%;
+            font-size: em(90px, 16px);
+            padding: em(80px, 90px) 0;
         }
     }
 
     &--about__title {
         font-size: em(16px, 36px);
-        letter-spacing: 0.02em;
         word-spacing: 0.15em;
         text-transform: uppercase;
         @include franklin-gothic;
@@ -41,7 +30,7 @@
         font-weight: $medium;
 
         @include bp-640 {
-            font-size: em(18px, 45px);
+            font-size: em(30px, 90px);
         }
     }    
 }

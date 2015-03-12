@@ -1,6 +1,5 @@
 .nav {
     @include franklin-gothic;
-    background: #fff;
     border-bottom: 1px solid $gray-light;
 
     &__inner {
@@ -14,17 +13,14 @@
         @include bp-640 {
             float: left;
             display: block;
-            padding: em(18px, 14px) 0 0 0;        
+            padding: em(18px, 14px) 0 em(20px, 14px) em(56px, 14px);
+            background: url(../images/header/nav-sm-retina.jpg) bottom left no-repeat;
+            background-size: 50px;
             color: $gray;
             text-transform: uppercase;
             letter-spacing: em(2px, 14px);
             font-size: em(14px, 16px);            
-        }
-
-        // &:hover,
-        // &:focus {
-        //     color: $gray;
-        // }            
+        }           
     }
 
     .social-list {
