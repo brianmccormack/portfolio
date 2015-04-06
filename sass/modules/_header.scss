@@ -28,5 +28,18 @@
         @include bp-640 {
             font-size: em(34px, 90px);
         }
-    }    
+    }
+
+    &--project {
+        margin: 0 auto;
+        max-width: em(768px, 16px);
+    
+        &__headline {
+            font-size: em(34px, 16px);
+            @include source;
+            text-align: center;
+            padding: em(60px, 34px) em(20px, 34px) 0;
+            line-height: 1.25em;   
+        }
+    }
 }

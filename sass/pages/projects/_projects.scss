@@ -1,0 +1,25 @@
+.back-to-projects {
+	margin: 0 auto;
+    max-width: em(768px, 16px);
+
+    &__link {
+    	display: inline-block;
+    	margin: em(20px, 16px) 0 0 em(20px, 16px);
+    }
+}
+
+.project__summary__recap {
+	display: block;
+	margin-bottom: em(40px, 16px);
+}
+
+.project__summary__section,
+.project__summary__p {
+	padding-bottom: em(20px, 16px);	
+}
+
+.project__summary__section__headline {
+	@include source;
+	display: block;
+	margin-bottom: em(10px, 16px);
+}
