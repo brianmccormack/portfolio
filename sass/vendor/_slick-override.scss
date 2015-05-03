@@ -12,7 +12,7 @@
 
 .slick-prev:before, 
 .slick-next:before {
-	color: $yellow;
+	color: $gray;
 	opacity: 1;
 
 	@include bp-640 {
