@@ -12,4 +12,14 @@
 	        margin: 0;
 	    }   		
 	}
+
+	&__link {
+		color: $yellow;
+		border-bottom: 0 none;
+
+		&:hover,
+		&:focus {
+			border-bottom: 0 none;
+		}
+	}
 }

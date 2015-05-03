@@ -2,33 +2,31 @@
 
     // * ABOUT *
 
-    &--about {       
-        margin: 0 auto;
-        max-width: em(768px, 16px);
-        position: relative;
-    }
+    &--about {    
 
-    &--about__name {
-        text-align: center;
-        font-size: em(40px, 16px); 
-        padding: em(80px, 40px) 0;
-        @include source;
+        &__image {
+            margin: 0 auto;
+            width: 100%;
+            max-width: em(640px, 16px);
+            height: em(260px, 16px);
+            background: url("../images/header/sm.jpg") no-repeat bottom center;
+            @include image-2x("../images/header/sm2x.jpg", 640px, 320px);
 
-        @include bp-640 {
-            font-size: em(90px, 16px);
-            padding: em(80px, 90px) 0;
-        }
-    }
+            @include bp-640 {
+                height: em(300px, 16px);
+            }
+        }        
+    }    
 
-    &--about__title {
-        font-size: em(16px, 36px);
-        display: block;
-        padding-top: em(4px, 16px);
+    // &--about__title {
+    //     font-size: em(16px, 36px);
+    //     display: block;
+    //     padding-top: em(4px, 16px);
 
-        @include bp-640 {
-            font-size: em(34px, 90px);
-        }
-    }
+    //     @include bp-640 {
+    //         font-size: em(34px, 90px);
+    //     }
+    // }
 
     &--project {
         margin: 0 auto;
@@ -36,7 +34,6 @@
     
         &__headline {
             font-size: em(34px, 16px);
-            @include source;
             text-align: center;
             padding: em(60px, 34px) em(20px, 34px) 0;
             line-height: 1.25em;   

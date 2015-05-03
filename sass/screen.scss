@@ -15,6 +15,7 @@
 @import "_patterns/px-em";
 @import "_patterns/max-width";
 @import "_patterns/media-queries";
+@import "_patterns/retina-images";
 @import "_patterns/font";
 @import "_patterns/font-weight";
 @import "_patterns/colors";
@@ -29,6 +30,7 @@
 @import "global/em";
 @import "global/strong";
 @import "global/lists";
+@import "global/visibility";
 
 // Components 
 @import "components/shapes";
@@ -36,7 +38,7 @@
 
 // Modules
 @import "modules/social-list";
-@import "modules/nav";
+// @import "modules/nav";
 @import "modules/header";
 @import "modules/footer";
 

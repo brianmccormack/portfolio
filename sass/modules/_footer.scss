@@ -7,10 +7,6 @@
 	&__headline {
 		padding-bottom: em(30px, 30px);
 	    font-size: em(30px, 16px);
-	    @include source;
-
-	    @include bp-640 {
-	    	font-size: em(34px, 16px);
-	    }
+		font-weight: $bold;
 	}	
 }

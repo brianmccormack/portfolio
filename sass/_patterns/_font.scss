@@ -2,12 +2,27 @@
 // 	font-family: 'Open Sans', sans-serif;
 // }
 
-@mixin franklin-gothic {
-	font-family: "franklin-gothic-urw","FranklinGothic URW", sans-serif;
-	font-style: normal;
-}
+// @mixin franklin-gothic {
+// 	font-family: "franklin-gothic-urw","FranklinGothic URW", sans-serif;
+// 	font-style: normal;
+// }
 
-@mixin source {
-	font-family: "source-serif-pro", "Source Serif Pro", sans-serif;
+// @mixin source {
+// 	font-family: "source-serif-pro", "Source Serif Pro", sans-serif;
+// 	font-style: normal;
+// }
+
+// @mixin freight {
+// 	font-family: "freight-sans-pro",sans-serif;
+// 	font-style: normal;
+// }
+
+// @mixin aktiv {
+// 	font-family: "aktiv-grotesk-std", "Aktiv Grotesk", sans-serif;
+// 	font-style: normal;
+// }
+
+@mixin proxima {
+	font-family: "proxima-nova", "Proxima Nova", sans-serif;
 	font-style: normal;
 }

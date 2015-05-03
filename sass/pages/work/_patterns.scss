@@ -1,0 +1,14 @@
+%work__grid__item {
+	width: 100%;
+	display: block;
+	height: em(250px, 16px);
+	background: $yellow;
+	margin-bottom: em(20px, 16px);			
+
+	@include bp-640 {
+		width: 50%;
+		border: 1px solid white;
+		float: left;
+		margin-bottom: 0;
+	}
+}

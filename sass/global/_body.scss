@@ -1,7 +1,7 @@
 body {    
     color: $gray;
-	@include franklin-gothic;
-	font-size: 100%;	
+	@include proxima;
+	font-size: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;

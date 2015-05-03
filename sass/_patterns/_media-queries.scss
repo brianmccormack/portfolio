@@ -2,6 +2,10 @@
 	@media screen and (min-width: em(640px, 16px)) { @content; }
 }
 
+@mixin bp-480 {
+	@media screen and (min-width: em(480px, 16px)) { @content; }
+}
+
 @mixin print {
   	@media print { @content; }
 }
