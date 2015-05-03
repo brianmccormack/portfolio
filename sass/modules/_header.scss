@@ -10,7 +10,7 @@
             max-width: em(640px, 16px);
             height: em(260px, 16px);
             background: url("../images/header/sm.jpg") no-repeat bottom center;
-            @include image-2x("../images/header/sm2x.jpg", 640px, 320px);
+            @include image-2x("../images/header/sm@2x.jpg", 640px, 320px);
 
             @include bp-640 {
                 height: em(300px, 16px);
