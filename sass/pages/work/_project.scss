@@ -54,6 +54,7 @@
 	&__summary {
 		padding: em(20px, 16px) 0;
 		@extend %max-width-460;
+		line-height: 1.4em;
 	}
 
 	&__summary__item {
