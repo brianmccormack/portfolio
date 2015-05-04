@@ -36,29 +36,29 @@
 	// 	}
 	// }	
 
-	&__grid {
-		@include clearfix;
-		margin-top: em(40px, 16px);
+	// &__grid {
+	// 	@include clearfix;
+	// 	margin-top: em(40px, 16px);
 
-		&__item-1,
-		&__item-2,
-		&__item-3,
-		&__item-4 {
-			@extend %work__grid__item;
-			background-size: cover;
-		}
+	// 	&__item-1,
+	// 	&__item-2,
+	// 	&__item-3,
+	// 	&__item-4 {
+	// 		@extend %work__grid__item;
+	// 		background-size: cover;
+	// 	}
 
-		&__item-1 {
-			background: url(../images/projects/pcln-confirmation/hotel-sopq.jpg);
-		}
+	// 	&__item-1 {
+	// 		background: url(../images/projects/pcln-confirmation/hotel-sopq.jpg);
+	// 	}
 
-		&__item-2 {
-			background: url(../images/projects/pcln-p2/search.jpg);			
-		}
+	// 	&__item-2 {
+	// 		background: url(../images/projects/pcln-p2/search.jpg);			
+	// 	}
 
-		&__link {
-			display: block;
-			height: 100%;
-		}
-	}
+	// 	&__link {
+	// 		display: block;
+	// 		height: 100%;
+	// 	}
+	// }
 }
