@@ -291,11 +291,15 @@ strong {
     margin-bottom: 1.875em; }
   .project__details-item {
     margin-bottom: 0.25em; }
-  .project__item img, .project__item--details img {
-    max-width: 100%;
-    margin: 0 auto; }
+  .project__item, .project__item--details {
+    text-align: center; }
+    .project__item img, .project__item--details img {
+      max-width: 100%; }
+  .project__item__caption {
+    display: block;
+    margin-bottom: 0.75em; }
   .project__item--details {
-    margin-bottom: 1.25em; }
+    margin-bottom: 1.875em; }
   .project__img-border {
     border: 1px solid #ddd; }
   .project__summary {
