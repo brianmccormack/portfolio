@@ -295,7 +295,8 @@ strong {
     max-width: 100%;
     margin: 0 auto; }
   .project__item--details {
-    margin-bottom: 1.25em; }
+    margin-bottom: 1.25em;
+    text-align: center; }
   .project__img-border {
     border: 1px solid #ddd; }
   .project__summary {
