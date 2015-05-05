@@ -36,8 +36,8 @@
             font-size: em(34px, 16px);
             text-align: center;
             padding: em(60px, 34px) em(20px, 34px) 0;
-            line-height: 1.25em; 
-            @include brandon;  
+            line-height: 1.25em;
+            font-weight: $bold;
         }
     }
 }
