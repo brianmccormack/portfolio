@@ -1,0 +1,5 @@
+@mixin headline {
+	text-align: center;
+	font-size: em(38px, 16px);
+	color: $gray;
+}
