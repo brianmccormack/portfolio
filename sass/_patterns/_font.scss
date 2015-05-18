@@ -3,3 +3,8 @@
 	font-style: normal;
 	font-weight: $light;
 }
+@mixin flood {
+	font-family: "flood-std",sans-serif;
+	font-style: normal;
+	font-weight: $light;
+}
