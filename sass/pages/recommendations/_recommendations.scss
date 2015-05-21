@@ -23,6 +23,7 @@
 		display: block;
 		font-size: em(14px, 16px);
 		line-height: 1.3em;
+		margin-left: 0.9em;
 	}
 
 	&__job-title {
@@ -31,6 +32,8 @@
 
 	&__cite-contain {
 		margin-top: em(10px, 16px);
+		position: relative;
+		left: -0.8em;
 	}
 
 	.icon-quotes-left,
