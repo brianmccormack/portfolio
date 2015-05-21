@@ -1,6 +1,6 @@
 .project__summary__recap {
 	display: block;
-	margin-bottom: em(40px, 16px);
+	margin: em(20px, 16px) 0 em(30px, 16px);
 }
 
 .project__summary__section,
@@ -11,4 +11,12 @@
 .project__summary__section__headline {
 	display: block;
 	margin-bottom: em(10px, 16px);
+}
+
+.project__team__list {
+	margin: 0 0 em(30px, 16px);
+}
+
+.project__team__item {
+	margin-bottom: em(5px, 16px);
 }
