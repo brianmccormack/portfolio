@@ -20,10 +20,12 @@
 	&__job-title,
 	&__date {
 		display: block;
+		font-size: em(14px, 16px);
+		line-height: 1.3em;
 	}
 
 	&__job-title {
-		margin-top: em(5px, 16px);
+		margin-top: em(10px, 16px);
 	}
 
 	&__cite-contain {
