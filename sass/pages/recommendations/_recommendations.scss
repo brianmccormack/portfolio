@@ -1,0 +1,32 @@
+.recommendations {
+	padding: em(20px, 16px);
+	@extend %max-width-460;
+	line-height: 1.4em;	
+
+	&__linkedin {
+		margin: 0 0 em(60px, 16px);
+		display: block;
+		text-align: center;
+	}
+
+	&__item {
+		margin-bottom: em(60px, 16px);
+	}
+
+	&__paragraph {
+		margin-bottom: em(16px, 16px);
+	}
+
+	&__job-title,
+	&__date {
+		display: block;
+	}
+
+	&__job-title {
+		margin-top: em(5px, 16px);
+	}
+
+	&__cite-contain {
+		margin-top: em(10px, 16px);
+	}
+}

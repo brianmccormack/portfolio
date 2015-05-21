@@ -11,17 +11,7 @@
 // @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 // Patterns
-@import "_patterns/clearfix";
-@import "_patterns/px-em";
-@import "_patterns/max-width";
-@import "_patterns/media-queries";
-@import "_patterns/retina-images";
-@import "_patterns/font";
-@import "_patterns/font-weight";
-@import "_patterns/colors";
-@import "_patterns/border-radius";
-@import "_patterns/transform";
-@import "_patterns/headline";
+@import "_patterns/manifest";
 
 // Global
 @import "global/show-for-screen-size.scss";
@@ -32,6 +22,7 @@
 @import "global/strong";
 @import "global/lists";
 @import "global/visibility";
+@import "global/back-link";
 
 // Components 
 @import "components/shapes";
@@ -56,6 +47,9 @@
 
 	// projects
 	@import "pages/projects/projects";
+
+	// recommendations
+	@import "pages/recommendations/recommendations";
 
 // Slick-override
 @import "vendor/slick-override";
