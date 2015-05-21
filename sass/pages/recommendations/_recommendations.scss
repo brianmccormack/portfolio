@@ -15,6 +15,7 @@
 
 	&__paragraph {
 		margin-bottom: em(16px, 16px);
+		position: relative;
 	}
 
 	&__job-title,
@@ -30,5 +31,19 @@
 
 	&__cite-contain {
 		margin-top: em(10px, 16px);
+	}
+
+	.icon-quotes-left,
+	.icon-quotes-right {		
+		color: $gray-light;
+	}
+
+	.icon-quotes-left {
+		left: em(-20px, 16px);
+		position: absolute;
+	}
+
+	.icon-quotes-right {
+		margin-right: em(-10px, 16px);
 	}
 }
