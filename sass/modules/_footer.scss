@@ -7,5 +7,23 @@
 	&__headline {
 		padding-bottom: em(38px, 38px);
 	    @include headline;
-	}	
+	}
+
+	&__rec-resume__list {
+		margin: em(38px, 16px) 0 0;
+	}
+
+	&__rec-resume__item {
+		display: inline;
+
+		+ .footer__rec-resume__item:before {
+			content: "|";
+			color: $gray-light;
+			padding: em(10px, 16px);
+		}
+
+		.is-active {
+			@include links-active;
+		}
+	}
 }
