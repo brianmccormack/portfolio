@@ -1,0 +1,203 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico"/>
+	
+    <title>Project: Priceline Front End Style Guide</title>
+    <meta name="description" content="Priceline.com's Front End Design &amp; Development Style Guide">
+    <meta name="author" content="Brian McCormack">
+
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="../css/screen.css" />
+
+	<!-- fonts -->
+	<script src="//use.typekit.net/xuv7uwe.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+
+	<div class="back-link-container">
+		<a class="back-link" href="/#project-styleguide">&larr; back to projects</a>
+	</div>
+
+	<header class="header--project">		
+		<h1 class="header--project__headline">Priceline's Front-end Style&nbsp;Guide</h1>
+	</header>
+
+	<main class="work">	
+		<a class="work__anchor" name="work"></a>
+		<div class="work__inner">
+			
+			<div class="project__summary">
+
+				<ul class="project__team__list">					
+					<li class="project__team__item"><strong>Design / Development:</strong> Brian&nbsp;McCormack, <a href="https://www.linkedin.com/pub/tanya-brassie/32/b22/a24">Tanya&nbsp;Brassie</a></li>
+					<li class="project__team__item"><strong>Engineering Support:</strong> <a href="https://www.linkedin.com/in/jsolis">Jason Solis</a></li>
+				</ul>
+
+
+				<em class="project__summary__recap">Priceline had been operating without a front-end style guide up until this point. So, as an extension of the <a href="priceline-confirmation.html">confirmation page project</a>, we took it upon ourselves to create one, documenting commonly used front end patterns and assets. This gave us a good starting point for discussions with other front-end teams to address misalignments in visual patterns across the site.</em>
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Style Guide Goals</strong>
+					<ul>
+						<li>&bull; Eliminate repetitive design &amp; development work</li>
+						<li>&bull; Reduce the learning curve for any new project member</li>
+						<li>&bull; Create a consistent customer experience</li>
+					</ul>
+					<br>
+					<p class="project__summary__p">The Priceline style guide provides a means of documenting a set of assets that can be reused across our site. By standardizing the way we present certain types of content, our customers will have a clearer understanding of how to navigate the site, and they'll have more confidence and trust when making a purchase through us.</p>
+				</div>
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Getting Started</strong>
+					<p class="project__summary__p">Our first version of the style guide was a means of surfacing commonly used interface elements for an experience that we were actively building. After some research we decided on a technique that uses <a href="http://warpspire.com/kss/styleguides/">KSS</a> to help automate the generation of a "living style guide." This solution allowed us to build these projects in parallel and involved only a small time investment.</p>
+
+					<p class="project__summary__p">Once our living style guide represented the styles we used for buttons, typography, brand colors, icons and a CSS class naming convention, I began organizing discussions with the other designers to gain consensus on those styles and with developers to discuss the naming convention. Because we had been operating without any documented standards until now, each team / designer could evolve the product they worked on as they saw fit. I remember one day when 5 different individuals in our department were actively creating their own icon font for their product! This process over time made some of the alignment discussions that followed fairly challenging.</p>
+
+					<p class="project__summary__p">You might think, as I did, that buttons would be an easy component to tackle first. But when a quick search across products yields 26 different button styles, and some things that look like buttons but aren't, you are guaranteed an interesting discussion when trying to come to consensus on a single pattern that makes sense to use everywhere going forward. To resolve the button style conundrum, I led a discussion where we looked at how buttons were being used throughout the site, assessed consistencies/inconsistencies and agreed upon CSS properties for our button set one at a time. I assured the designers that even though this might seem like a pain now, in the long run it will allow us to not have to ask the same questions over and over again. Beyond that, any new hires could refer to this document instead of having to choose a style from somewhere on the site, getting us closer to our goal of a more visually consistent interface.</p>
+				</div>
+
+				<div class="project__summary__section">	
+					<strong class="project__summary__section__headline">Spreading the Word</strong>
+					<p class="project__summary__p">I worked with Jason Solis and other engineers, to have the style guide hosted on our internal network at an easy to remember url: "http://styles." This made our work easily accessible and visible to everyone in the company. Over time as questions came up, referring to the style guide became routine and "style guide" became part of our vocabulary.</p>
+
+					<p class="project__summary__p">To draw more attention to the style guide, and to illustrate its importance, I demoed the project in a department meeting, which led to an invite to introduce the effort at a company wide meeting. During these meetings I played a game with the audience called <em>"Clickable! Not Clickable!"</em> where I displayed screenshots of interface elements on our site today and asked participants to raise their hand if they thought that what was displayed was in fact a "clickable" element. Even though these elements were taken out of context, they help to illustrate the point that the way we display our content sets a expectations. These were lively and engaging sessions, especially considering that some members of the audience were responsible for creating the interface elements in question. Hammering home the point, I left each of these discussions by restating that <em>"Clickable! Not Clickable!"</em> was not a game we want to be playing with our customers and that the experience we provide for them should feel effortless.</p>
+				</div>
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Growing Pains</strong>
+					<p class="project__summary__p">The first version of our style guide was a huge success and we were well underway to establishing a consistent and scalable design language. However, in order to scale the effort, additional contributors would be necessary. We would also need to decouple the living style guide from the confirmation page project so that it could begin to serve as the documentation for a larger set of common interface patters across the site.</p>
+
+					<p class="project__summary__p">One of the biggest concerns I had at this point was that by evolving from a living style guide, we might be subject to a workflow that was harder to maintain. Ease of maintenance is incredibly important for a project like this to continue to serve as a current and valuable resource.</p>
+				</div>
+
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Scaling the Effort</strong>
+					<p class="project__summary__p">
+						After some more digging around, I settled on <a href="http://patternlab.io/">Patternlab</a> as our solution. Jason once again jumped in to help, this time to migrate the project to a Github like environment so that others could easily get involved and contribute to the project, and even fork the project for their own use if necessary.
+					</p>
+
+					<p class="project__summary__p">
+						Because I had structured the <a href="http://sass-lang.com/">SCSS</a> in a modular and scalable way, the change from KSS to Patternlab was not incredibly challenging or time consuming. Tanya came on board as an intern, and she and I dedicated portions of each week to the evolution of the style guide's content and structure.
+					</p>
+
+					<p class="project__summary__p">
+						The style guide has grown exponentially as a result of the ongoing conversations with designers, developers, project managers, etc. Because we have included design and development assets into the documentation, it has dramatically cut down on the time it takes to build a web app that is visually consistent with an agreed upon aesthetic for the website. It has also been a means to collaborating with other departments and disciplines, incorporating brand voice and tone guidelines, licensed brand photography, and code writing conventions. Throughout this process, and on an ongoing basis, we look outwards to evaluate what others are doing in their own style guides and frameworks. Thankfully there are ton of <a href="http://styleguides.io/">great resources</a> available to help guide us.
+					</p>
+				</div>
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Style Guide as a Prototyping Tool</strong>
+					<p class="project__summary__p">
+						The style guide has also allowed us to leverage this library of established components to rapidly build prototypes for new experiences and enhancements to existing experiences. Prototypes can be shared with and evaluated by any team simply by sharing an internal url. This has been very useful as we've begun to explore and consider opportunities to build responsive designs. Revisions to our global Priceline header and footer, <a href="priceline-help.html">Priceline's responsive Help page</a>, and many other pages and components have been built and have evolved in our style guide as prototypes before making their way to production.
+					</p>
+				</div>
+
+				<div class="project__summary__section">
+					<strong class="project__summary__section__headline">Tremendous Future Potential</strong>
+					<p class="project__summary__p">It's going strong and still has a ton of potential. Here are some ideas we have discussed.</p>
+					<ul>
+						<li>&bull; A publicly visible prototype url can be used for testing purposes, to help gather feedback on a working prototype.</li>
+						<li>&bull; Prototypes that replace existing experiences can be analyzed by our QA department in an effort to catch bugs earlier on.</li> 
+						<li>&bull; More closely mirroring our style guide and production environments will allow for a more seamless transition between the two.</li>
+						<li>&bull; Exposing the style guide to the public will allow for input from a much broader group of designers and developers.</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<!-- <div class="project__list project__confirmation">
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Previous version of the Hotel Confirmation Page</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/old-Hotel-Retail.jpg" alt="the old version of the hotel confirmation page">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Whiteboard content notes</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/whiteboard.jpg" alt="whiteboarding layouts">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Notes from a design discussion</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/notes.jpg" alt="notes from design discussions">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Print Friendly</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/print.png" alt="print friendly version">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Hotel reservation on mobile</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/hotel-mobile.png" alt="Hotel reservation on mobile">
+				</figure>
+
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Analysis - First 3 seconds</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/eyequant3.png" alt="Analysis - First 3 seconds">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Analysis - Attention Map</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/eyequant2.png" alt="Analysis - Attention Map">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Analysis - Visibility / Attention grabbing</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/process/eyequant1.png" alt="Analysis - Attention grabbing">
+				</figure>
+
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Hotel Express Deal Confirmation</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/hotel-sopq.jpg" alt="Hotel Express Deal Confirmation page">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Detail - Hotel Express Deal Confirmation</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/hotel-retail.jpg" alt="Hotel Express Deal Confirmation page detail">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Past Rental Car Confirmation</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/rc-past.jpg" alt="Past Rental Car Confirmation page">
+				</figure>
+				<figure class="project__item--details">
+					<figcaption class="project__item__caption">Upcoming Rental Car Confirmation</figcaption>
+					<img class="project__img-border" src="../images/projects/pcln-confirmation/rc-upcoming.jpg" alt="Upcoming Rental Car Confirmation">
+				</figure>
+			</div> -->
+
+		</div>	
+	</main>
+
+	<div class="back-link-container">
+		<a class="back-link" href="/#project-confirmation">&larr; back to projects</a>
+	</div>
+
+	<footer class="footer">
+		<h2 class="footer__headline">Elsewhere</h2>
+		<ul class="social-list">
+			<li class="social-list__item">
+				<a class="social-list__link" href="http://instagram.com/brianfromnewyork" rel="external" onclick="target='_blank';" title="@BrianFromNewYork"><i class="icon-instagram"></i></a>
+			</li>
+			<li class="social-list__item">
+				<a class="social-list__link" href="https://twitter.com/BrianFromNY" rel="external" onclick="target='_blank';" title="@BrianFromNY"><i class="icon-twitter"></i></a>
+			</li>			
+			<li class="social-list__item">
+				<a class="social-list__link" href="http://www.linkedin.com/in/brianfromnewyork" rel="external" onclick="target='_blank';" title="Say Hi on LinkedIn"><i class="icon-linkedin"></i></a>
+			</li>			
+			<li class="social-list__item">
+				<a class="social-list__link" href="mailto:hello@brianmccormack.com" title="ye olde email"><i class="icon-envelop"></i></a>
+			</li>
+		</ul>
+		<ul class="footer__rec-resume__list">
+			<li class="footer__rec-resume__item">
+				<a href="../recommendations.html">Recommendations</a>
+			</li>
+			<li class="footer__rec-resume__item">
+				<a href="brianmccormack_resume.pdf" download>Resume</a>
+			</li>
+		</ul>
+	</footer>
+
+</body>
+</html>
